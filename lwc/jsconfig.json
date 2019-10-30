@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/accountManagementPanelRow": [
+                "accountManagementPanelRow/accountManagementPanelRow.js"
+            ],
+            "c/accountsAndOpportunities": [
+                "accountsAndOpportunities/accountsAndOpportunities.js"
+            ],
+            "c/accountsList": [
+                "accountsList/accountsList.js"
+            ],
+            "c/auraPubsub": [
+                "auraPubsub/auraPubsub.js"
+            ],
+            "c/productList": [
+                "productList/productList.js"
+            ],
+            "c/productRow": [
+                "productRow/productRow.js"
+            ],
+            "c/products": [
+                "products/products.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/theAccounts": [
+                "theAccounts/theAccounts.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
